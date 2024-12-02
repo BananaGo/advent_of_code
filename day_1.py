@@ -59,7 +59,7 @@ Once again consider your left and right lists. What is their similarity score?
 
 """
 
-with open("./day_1_two_lists.txt", "r") as file:
+with open("./input_day_1.txt", "r") as file:
     list_left, list_right = zip(
         *[map(int, line.strip().split("   ")) for line in file]
     )
